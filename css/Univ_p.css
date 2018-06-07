@@ -1,0 +1,41 @@
+.bigmenu{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    background-color: rgb(233, 126, 126);
+    text-align: left;
+    border-right: 1px solid gray;
+   }
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid green;
+}
+.login{
+    margin-top: 10px;
+}
+.wrap{
+    background-color:pink;
+}
+.p{
+    display:inline;
+}
+.link{
+    display: flex;
+    justify-content: center;
+
+}
+#main{
+    width: 400px;
+    height: 100px;
+}
