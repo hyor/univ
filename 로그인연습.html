@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -7,22 +8,24 @@
   <link rel="stylesheet" href="css/Univ_p.css">
 
 </head>
+
 <body>
   <fieldset>
-     
-     <label for="id"></label>
-     <input type="text" name="id" id="id" title="아이디" placeholder="아이디"/><br>
-     <label for="pass"></label>
-     <input type="password" name="pass" id="pass" title="비밀번호" placeholder="비밀번호"/>
-  
-     <input type="submit" value="로그인"/>
-  
-     <input type="checkbox" name="remember" id="remember"/>
+    <div class="loginform">
+      <div class="loginbase" style="display:flex;flex-direction:row;">
+        <div class="idpw" style="display:flex;flex-direction:column;">
+          <input type="text" name="id" id="id" title="아이디" placeholder="아이디" style="height:50%;padding:0;margin:0;" />
+          <input type="password" name="pass" id="pass" title="비밀번호" placeholder="비밀번호" style="height:50%;padding:0;margin:0;" />
+        </div>
+        <div class="loginbutton">
+          <input type="submit" class="btn_login btn-small" value="로그인" style="width:58px;height:55px;font-size:12px;background-color:#a0496a;color:#fafafa;">
+        </div>
+      </div>
+      <input type="checkbox" name="remember" id="remember" />
+      <label for="remember">아이디저장</label>
+    </div>
 
-     <input type="submit" class="btn_login btn-small" value="로그인" style="width:58px;height:55px;font-size:12px;background-color:#e00056;color:#fafafa;">
-     <label for="remember">아이디저장</label>
-   
-   
-   </fieldset>
-  </body>
-  </html>
+  </fieldset>
+</body>
+
+</html>
