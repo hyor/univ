@@ -8,21 +8,13 @@
 
 </head>
 <body>
+
   <p>  
   <div class="header">
         <div class="logo">
         <a href="index.html">Univ.C</a>
         </div>
-        <div class="login">
-          
-        <label>ID : <input type= "text" size="15" value"">
-        </label>
-        <label for= "pass">password : </label>
-        <input id= "pass" type="password" size="15" value="">
-        <input type="submit" value="로그인">
-        <a href="회원가입.html"><button type="button">회원가입</button></a>
-        </div>
-
+       
       </div>
     </p>
 <div class="wrap">
@@ -30,71 +22,117 @@
   <ul class="list">
   <li class="headmenu">커뮤니티</li>
   <li><a href="게시판1.html">동아리</a></li>
-  <li>자유홍보</li>
-  <li>감정쓰레기통</li>
-  <li>연애상담</li>
-  <li>기숙사</li>
+  <li><a href="게시판1.html">자유홍보</a></li>
+  <li><a href="게시판1.html">감정쓰레기통</a></li>
+  <li><a href="게시판1.html">연애상담</a></li>
+  <li><a href="게시판1.html">기숙사</a></li>
   </ul> 
 
 <ul class="list">
     <li class="headmenu">학교생활</li>
-    <li>강의Q&#38;A</li>
-    <li>스터디모집</li>
-    <li>복덕방</li>
-    <li>헌책방</li>
+    <li><a href="게시판1.html">강의Q&#38;A</a></li>
+    <li><a href="게시판1.html">스터디모집</a></li>
+    <li><a href="게시판1.html">복덕방</a></li>
+    <li><a href="게시판1.html">헌책방</a></li>
   </ul> 
 
   <ul class="list">
       <li class="headmenu">일상</li>
-      <li>맛집</li>
-      <li>알바·과외</li>
-      <li>여행</li>
-      <li>자취</li>  
+      <li><a href="게시판1.html">맛집</a></li>
+      <li><a href="게시판1.html">알바·과외</a></li>
+      <li><a href="게시판1.html">여행</a></li>
+      <li><a href="게시판1.html">자취</a></li>  
     </ul> 
 
     <ul class="list">
         <li class="headmenu">취미</li>
-        <li>배틀그라운드</li>
-        <li>오버워치</li>
-        <li>롤</li>
-        <li>사진자랑</li>
+        <li><a href="게시판1.html">배틀그라운드</a></li>
+        <li><a href="게시판1.html">오버워치</a></li>
+        <li><a href="게시판1.html">롤</a></li>
+        <li><a href="게시판1.html">사진자랑</a></li>
         
       </ul> 
 
       <ul class="list">
           <li class="headmenu">진로</li>
-          <li>취업</li>
-          <li>CPA</li>
-          <li>공무원</li>
-          <li>임용</li>
+          <li><a href="게시판1.html">취업</a></li>
+          <li><a href="게시판1.html">CPA</a></li>
+          <li><a href="게시판1.html">공무원</a></li>
+          <li><a href="게시판1.html">임용</a></li>
         </ul> 
 
       <ul class="list">
           <li class="headmenu">졸업생</li>
-          <li>지역모임</li>
-          <li>직장인</li>
-          <li>고민상담</li>
-          <li>재테크</li>
+          <li><a href="게시판1.html">지역모임</a></li>
+          <li><a href="게시판1.html">직장인</a></li>
+          <li><a href="게시판1.html">고민상담</a></li>
+          <li><a href="게시판1.html">재테크</a></li>
        </ul> 
 
       <ul class="list">
           <li class="headmenu">정보</li>
-          <li>시간표</li>
-          <li>학생식당</li>
-          <li>셔틀버스</li>
-          <li>강의평가</li>
-          <li>학사일정</li>
+          <li><a href="게시판1.html">시간표</a></li>
+          <li><a href="http://sobi.chonbuk.ac.kr/chonbuk/m040101" target="_blank">학생식당</a></li>
+          <li><a href="게시판1.html">셔틀버스</a></li>
+          <li><a href="게시판1.html">강의평가</a></li>
+          <li><a href="게시판1.html">학사일정</a></li>
         </ul> 
 </div>
 </div>
-<div class="link">
-<a href="http://www.chonbuk.ac.kr/main/main.php"><img class="linkmain" src="전북대학교 이미지.jpg"></a>
-<a href="http://210.117.181.27:8080/cles/indexPC.jsp"><img class="linkmain" src="CLes.jpg"></a>
-<a href="http://portal.jbnu.ac.kr/enview/portal/"><img class="linkmain" src="캡처.jpg"></a>
+<br>
+  <fieldset>
+    <div class="loginform">
+      <div class="loginbase" style="display:flex;flex-direction:row;">
+        <div class="idpw" style="display:flex;flex-direction:column;">
+          <input type="text" name="id" id="id" title="아이디" placeholder="아이디" style="height:50%;padding:0;margin:0;" />
+          <input type="password" name="pass" id="pass" title="비밀번호" placeholder="비밀번호" style="height:50%;padding:0;margin:0;" />
+        </div>
+        <div class="loginbutton">
+          <input type="submit" class="btn_login btn-small" value="로그인" style="width:58px;height:55px;font-size:12px;background-color:#a0496a;color:#fafafa;">
+        </div>
+      </div>
+      <input type="checkbox" name="remember" id="remember" />
+      <label class="remember" for="remember">아이디저장</label>&nbsp;&nbsp;&nbsp;
+      <a class="remember" href="회원가입.html">회원가입</a>
+    </div>
+
+  </fieldset>
+
+    
+<div class="hit">
+  <h4><span>&nbsp;&nbsp;인기게시글</span></h4>
+  
+<div class="contents">
+  <ol class="conli">
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  </ol> 
 </div>
 
-<div>
-
 </div>
+<div class="school" style="text-align: center;">
+  학교 주요 사이트 링크 모음
+<div class="link" style>
+<a href="http://www.chonbuk.ac.kr/main/main.php" target="_blank">·전북대학교 홈페이지</a>
+<a href="http://210.117.181.27:8080/cles/indexPC.jsp" target="_blank">·전북대학교 강의평가CLeS</a>
+<a href="http://portal.jbnu.ac.kr/enview/portal/" target="_blank">·전북대학교 포털</a>
+<a href="http://dl.jbnu.ac.kr/" target="_blank">전북대학교 도서관</a>
+</div>
+</div>
+<div class="hit">
+  <h4><span>&nbsp;&nbsp;인기게시글</span></h4>
+  
+<div class="contents">
+  <ol class="conli">
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  <a href="http://www.naver.com">인기글</a>
+  </ol> 
+</div>
+
+
 </body>
 </html>
