@@ -24,15 +24,39 @@
 .logo{
     font-size: 35px;
     font-weight: bold;
-    margin-left: 120px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 
+}
+.search1{
+    margin-right: 550px;
+    margin-top: 5px;   
+}
+.search{
+    height: 35px;
+    width: 400px;
+    border:none;
+    padding-top: 2px;
+}
+
+.searchbutton{
+    height: 40px;
+    width: 35px;
+    background-color: #592874;
+    color : white;
+    
+}
+.searchbox{
+    display: flex;
+    flex-direction:row;
+    margin-top: 35px;
+    border:5px solid #592874;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    border-top: 5px solid rgb(230, 20, 20);
+    border-top: 5px solid skyblue;
 
 }
 .login{
@@ -87,7 +111,7 @@ fieldset{
 
 }
 input[type=submit]{
-    background-color: yellowgreen;
+    background-color: #592874;
     color: white;
     font-weight: bold;
     border: none;
@@ -154,3 +178,16 @@ input[type=submit]{
  display: flex;
  flex-direction: row;
 }
+.list_{
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-right: 1px none slategrey;
+    padding: 1px 15px; 
+    width: 85px;
+    height: 128px;
+    }
+
