@@ -36,7 +36,7 @@ body{
     position: relative;
 }
 
-.a :hover{
+.drop :hover{
     color:#ff545b;
 }
 
@@ -57,14 +57,38 @@ body{
     display: block;
 }
 
+.wrap{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    
+}
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.content-list{
+    border-left: 1px solid rgba(100, 100, 100, 0.1);
+    border-right: 1px solid rgba(100, 100, 100, 0.1);
+    width: 550px;
+    padding-top:30px;
+    padding-left: 20px;
+    font-size:15px;
+}
+
+.content-list>ul>li{
+    list-style:none;
+    padding-bottom: 5px;
+}
+.ad{
+    padding-top:30px;
+}    
+
+
 
 /* Show the dropdown menu on hover */
-.a:hover .dropdown-content {
+.drop:hover .dropdown-content {
     display: block;}
 
+
+ 
 .searching{
     display: flex;
     flex-direction: row;
@@ -96,7 +120,7 @@ a{
     text-decoration: none;  
     color: black;
 }
-.a{
+.drop{
     display: flex;
     align-items: center;
     justify-content: center;
