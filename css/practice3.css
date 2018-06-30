@@ -50,9 +50,8 @@ a{
 }
 
 
-/* mouse over link */
-li> a:hover {
-    color: red;
+ul li :hover {
+    color:#ff545b;
     font-weight: bold;
 }
 
@@ -89,6 +88,17 @@ li> a:hover {
     margin-right: 0;
     margin-left:0;
 }
+
+.community{
+    display: flex;
+    flex-direction:row;
+    margin-left:90px;
+}
+
+.icon{
+    border-right: 1px solid black;
+}
+
 
 .all_section{
     margin-left: 130px;
@@ -208,4 +218,37 @@ ul>li{
     margin-bottom:10px;
     font-size: 13px;
     color: rgb(228, 222, 222);
+}
+
+.menulist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:600px;
+    padding-left: 0;
+}
+
+.menulist>li{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.dropdown:hover .community{
+    display: block; 
+
+}
+
+.community{
+    position: absolute;
+    display: none;
+}
+
+.community a{
+    display: block;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
 }
